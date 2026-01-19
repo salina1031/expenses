@@ -12,7 +12,6 @@ function saveRender(){
     renderExpenses();
 }
 
-
 //randers /show the expenses when web page is open/load
 renderExpenses();//this is the function to call the elements/ content in the function
 
@@ -21,6 +20,7 @@ addButton.addEventListener("click",()=>{
     const expName=expensesName.value;
     const Amt = parseFloat(amount.value);
     if (expName==""||Amt<=0)
+        alert("please enter the expenses name and amount")
         return;
     //keeping all the value in the expense array which contain(date,expName,Amt)
     const expense={

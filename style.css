@@ -11,9 +11,11 @@ body {
 }
 .container{
     width: 50%;
+    padding: 1rem;
+    background-color:aqua
    
 }
-.h1{
+h1{
     text-align: center;
 }
 .expenses-class {
