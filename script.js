@@ -20,8 +20,8 @@ addButton.addEventListener("click",()=>{
     const expName=expensesName.value;
     const Amt = parseFloat(amount.value);
     if (expName==""||Amt<=0)
-        alert("please enter the expenses name and amount")
-        return;
+       
+        return( alert("please enter the expenses name and amount"));
     //keeping all the value in the expense array which contain(date,expName,Amt)
     const expense={
         id:Date.now(),
